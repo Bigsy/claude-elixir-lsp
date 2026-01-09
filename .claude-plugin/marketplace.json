@@ -1,5 +1,5 @@
 {
-  "name": "elixir-lsp-marketplace",
+  "name": "elixir-lsp",
   "description": "Elixir Language Server Protocol support for Claude Code",
   "owner": {
     "name": "Bigsy"
