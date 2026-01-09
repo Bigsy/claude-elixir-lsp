@@ -9,7 +9,7 @@ Install elixir-ls via Homebrew:
 ```bash
 brew install elixir-ls
 ```
-
+Make sure you can run `elixir-ls` from the cmdln and it starts without error (you dont need to keep it running just test it runs)
 (Requires Elixir/Erlang - install with `brew install elixir` if needed)
 
 ## Supported File Extensions
