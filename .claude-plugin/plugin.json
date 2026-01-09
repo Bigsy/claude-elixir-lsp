@@ -1,0 +1,22 @@
+{
+  "name": "elixir-lsp",
+  "description": "Elixir Language Server Protocol support for Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bigsy"
+  },
+  "homepage": "https://github.com/Bigsy/claude-elixir-lsp",
+  "lspServers": {
+    "elixir": {
+      "command": "elixir-ls",
+      "args": [],
+      "extensionToLanguage": {
+        ".ex": "elixir",
+        ".exs": "elixir",
+        ".heex": "phoenix-heex",
+        ".eex": "eex",
+        ".leex": "eex"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "elixir-lsp-marketplace",
+  "description": "Elixir Language Server Protocol support for Claude Code",
+  "owner": {
+    "name": "Bigsy"
+  },
+  "plugins": [
+    {
+      "name": "elixir-lsp",
+      "description": "Elixir Language Server Protocol support for Claude Code",
+      "version": "1.0.0",
+      "author": {
+        "name": "Bigsy"
+      },
+      "source": "./",
+      "category": "development",
+      "repository": "https://github.com/Bigsy/claude-elixir-lsp",
+      "lspServers": {
+        "elixir": {
+          "command": "elixir-ls",
+          "args": [],
+          "extensionToLanguage": {
+            ".ex": "elixir",
+            ".exs": "elixir",
+            ".heex": "phoenix-heex",
+            ".eex": "eex",
+            ".leex": "eex"
+          }
+        }
+      }
+    }
+  ]
+}
